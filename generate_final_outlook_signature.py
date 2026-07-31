@@ -44,14 +44,14 @@ html = f'''<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #2a355
   <div><span style="font-weight: bold; color: #14315c;">W</span> &nbsp;<a href="https://www.sprintlogisticservices.com" style="color: #1c5594; text-decoration: none;">www.sprintlogisticservices.com</a></div>
 </div>
 
-<div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #eef1f8; text-align: center;">
-  <img src="data:image/png;base64,{wca_b64}" alt="WCA" style="height: 36px; max-height: 36px; width: auto; margin: 3px 5px; vertical-align: middle;">
-  <img src="data:image/png;base64,{jctrans_b64}" alt="JCtrans" style="height: 36px; max-height: 36px; width: auto; margin: 3px 5px; vertical-align: middle;">
-  <img src="data:image/png;base64,{gla_b64}" alt="GLA" style="height: 36px; max-height: 36px; width: auto; margin: 3px 5px; vertical-align: middle;">
-  <img src="data:image/png;base64,{mundu_b64}" alt="Mundu" style="height: 36px; max-height: 36px; width: auto; margin: 3px 5px; vertical-align: middle;">
-  <img src="data:image/jpeg;base64,{icv_b64}" alt="ICV" style="height: 36px; max-height: 36px; width: auto; margin: 3px 5px; vertical-align: middle;">
-  <img src="data:image/png;base64,{iso_b64}" alt="ISO" style="height: 36px; max-height: 36px; width: auto; margin: 3px 5px; vertical-align: middle;">
-  <img src="data:image/png;base64,{nafl_b64}" alt="NAFL" style="height: 36px; max-height: 36px; width: auto; margin: 3px 5px; vertical-align: middle;">
+<div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #eef1f8; text-align: center; white-space: nowrap;">
+  <img src="data:image/png;base64,{wca_b64}" alt="WCA" style="height: 24px; max-height: 24px; width: auto; margin: 2px 3px; vertical-align: middle;">
+  <img src="data:image/png;base64,{jctrans_b64}" alt="JCtrans" style="height: 24px; max-height: 24px; width: auto; margin: 2px 3px; vertical-align: middle;">
+  <img src="data:image/png;base64,{gla_b64}" alt="GLA" style="height: 24px; max-height: 24px; width: auto; margin: 2px 3px; vertical-align: middle;">
+  <img src="data:image/png;base64,{mundu_b64}" alt="Mundu" style="height: 24px; max-height: 24px; width: auto; margin: 2px 3px; vertical-align: middle;">
+  <img src="data:image/jpeg;base64,{icv_b64}" alt="ICV" style="height: 24px; max-height: 24px; width: auto; margin: 2px 3px; vertical-align: middle;">
+  <img src="data:image/png;base64,{iso_b64}" alt="ISO" style="height: 24px; max-height: 24px; width: auto; margin: 2px 3px; vertical-align: middle;">
+  <img src="data:image/png;base64,{nafl_b64}" alt="NAFL" style="height: 24px; max-height: 24px; width: auto; margin: 2px 3px; vertical-align: middle;">
 </div>
 
 <div style="border-top: 1px solid #eef1f8; padding-top: 8px; margin-top: 12px; font-size: 8px; color: #9aa6bb; font-style: italic; line-height: 1.5; text-align: center;">
