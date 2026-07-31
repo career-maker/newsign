@@ -10,13 +10,7 @@ def encode_file(filepath):
 # Get image files
 logo_png_b64 = encode_file('Logo-7.png')
 watermark_png_b64 = encode_file('watermark.png')
-wca_b64 = encode_file('logo-wca.png')
-jctrans_b64 = encode_file('logo-jctrans.png')
-gla_b64 = encode_file('logo-gla.png')
-mundu_b64 = encode_file('logo-mundu.png')
-icv_b64 = encode_file('logo-icv.jpeg')
-iso_b64 = encode_file('logo-iso.png')
-nafl_b64 = encode_file('logo-nafl.png')
+certifications_b64 = encode_file('certifications_real.png')
 
 # Create Outlook-compatible version with all PNG images embedded
 html = f'''<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #2a3550; max-width: 500px;">
@@ -44,14 +38,8 @@ html = f'''<div style="font-family: 'Segoe UI', Arial, sans-serif; color: #2a355
   <div><span style="font-weight: bold; color: #14315c;">W</span> &nbsp;<a href="https://www.sprintlogisticservices.com" style="color: #1c5594; text-decoration: none;">www.sprintlogisticservices.com</a></div>
 </div>
 
-<div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #eef1f8; text-align: center; white-space: nowrap;">
-  <img src="data:image/png;base64,{wca_b64}" alt="WCA" style="height: 24px; max-height: 24px; width: auto; margin: 2px 3px; vertical-align: middle;">
-  <img src="data:image/png;base64,{jctrans_b64}" alt="JCtrans" style="height: 24px; max-height: 24px; width: auto; margin: 2px 3px; vertical-align: middle;">
-  <img src="data:image/png;base64,{gla_b64}" alt="GLA" style="height: 24px; max-height: 24px; width: auto; margin: 2px 3px; vertical-align: middle;">
-  <img src="data:image/png;base64,{mundu_b64}" alt="Mundu" style="height: 24px; max-height: 24px; width: auto; margin: 2px 3px; vertical-align: middle;">
-  <img src="data:image/jpeg;base64,{icv_b64}" alt="ICV" style="height: 24px; max-height: 24px; width: auto; margin: 2px 3px; vertical-align: middle;">
-  <img src="data:image/png;base64,{iso_b64}" alt="ISO" style="height: 24px; max-height: 24px; width: auto; margin: 2px 3px; vertical-align: middle;">
-  <img src="data:image/png;base64,{nafl_b64}" alt="NAFL" style="height: 24px; max-height: 24px; width: auto; margin: 2px 3px; vertical-align: middle;">
+<div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #eef1f8; text-align: center;">
+  <img src="data:image/png;base64,{certifications_b64}" alt="Certifications" style="width: 100%; max-width: 460px; height: auto; display: block; margin: 0 auto;">
 </div>
 
 <div style="border-top: 1px solid #eef1f8; padding-top: 8px; margin-top: 12px; font-size: 8px; color: #9aa6bb; font-style: italic; line-height: 1.5; text-align: center;">
